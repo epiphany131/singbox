@@ -18,7 +18,7 @@ apt update && apt -y install curl wget tar socat jq git openssl dnsutils xxd net
 
 - **自动创建快捷方式：sb**
 ```
-wget -N -O /usr/local/bin/sb.sh https://raw.githubusercontent.com/epiphany131/singbox/main/singbox-new.sh && chmod +x /usr/local/bin/sb.sh && ln -sf /usr/local/bin/sb.sh /usr/local/bin/sb && sb
+wget -N -O /usr/local/bin/sb.sh https://raw.githubusercontent.com/epiphany131/singbox-new/main/singbox-new.sh && chmod +x /usr/local/bin/sb.sh && ln -sf /usr/local/bin/sb.sh /usr/local/bin/sb && sb
 ```
 ## **使用方法**
 - **如果开启ECH配置则不会生成Clash客户端配置文件。**
